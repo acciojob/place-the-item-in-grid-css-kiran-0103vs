@@ -1,2 +1,18 @@
 
 /* Your CSS Code here. */
+.holder {
+    display: grid;
+    width: 200px;
+    height: 200px;
+    grid-template-columns: repeat(2, 1fr);  /* Creates two equal columns */
+    grid-template-rows: repeat(2, 1fr);     /* Creates two equal rows */
+    gap: 0;                                 /* Optional: Adjust gap between grid items */
+  }
+  
+  .item {
+    background-color: #ccc;  /* For visual demonstration, change as needed */
+    text-align: center;      /* Centers text inside the items */
+    padding: 10px;           /* Adds padding inside the items */
+    box-sizing: border-box;  /* Ensures padding and border are included in the total width and height */
+  }
+  
